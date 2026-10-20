@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Scan history and test backups
+scan_history.json
+scan_history_test_backup.json
+
+# Old code backups
+reconguard_v*_backup.py
+reconguard_last_backup.py
+
+# Generated reports
+reports/
+
+# Virtual environments
+venv/
+.venv/

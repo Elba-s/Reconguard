@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReconGuard Security Report</title>
+<style>
+body { font-family: Arial, sans-serif; max-width: 1000px;
+       margin: 35px auto; padding: 0 18px; color: #222;
+       background: #f4f6f8; }
+h1 { color: #17365d; }
+.card { background: white; padding: 20px;
+         margin: 18px 0; border-radius: 8px; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+th { background: #e9eef5; }
+</style>
+</head>
+<body>
+<h1>ReconGuard Security Report</h1>
+<p>Scan started: 2026-10-20 21:11:07 IST</p>
+<p>Report generated: 2026-10-20 21:11:07 IST</p>
+
+<div class="card">
+<h2>Scan Details</h2>
+<p><strong>Input target:</strong> 127.0.0.1</p>
+<p><strong>Scanned IP:</strong> 127.0.0.1</p>
+<p><strong>Scan type:</strong> Common ports</p>
+<p><strong>Host state:</strong> up</p>
+<p><strong>Ports checked:</strong> 100</p>
+<p><strong>Duration:</strong> 0.08 seconds</p>
+<p><strong>Service detection:</strong> Disabled</p>
+<p><strong>Ports scanned:</strong> Unknown</p>
+<p><strong>Nmap flags:</strong> -sT -Pn -n -T3 --reason -F</p>
+</div>
+
+<div class="card">
+<h2>DNS Information</h2>
+<p><strong>Lookup type:</strong> IP address / reverse DNS</p>
+<ul><li>127.0.0.1</li></ul>
+<p><strong>Reverse hostname:</strong> localhost</p>
+</div>
+
+<div class="card">
+<h2>Scan Summary</h2>
+<p>Open: 1</p>
+<p>Closed: 99</p>
+<p>Filtered/unknown: 0</p>
+</div>
+
+<div class="card">
+<h2>Open Ports</h2>
+<table>
+<thead><tr><th>Port</th><th>Service</th><th>Status</th></tr></thead>
+<tbody><tr><td>8080/tcp</td><td>http-proxy</td><td>OPEN</td></tr></tbody>
+</table>
+<p>Closed ports are summarized above rather than listed individually.</p>
+</div>
+
+<div class="card">
+<h2>Limitations</h2>
+<p>ReconGuard uses Nmap for TCP scanning. Service/version detection
+is an estimate and may be inconclusive. This report does not prove
+that a vulnerability exists. Timeouts, host filtering, and network
+conditions can affect results. Scan only systems you own or have
+permission to test.</p>
+</div>
+</body>
+</html>
